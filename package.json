@@ -8,6 +8,9 @@
     "index.js",
     "lib"
   ],
+  "scripts": {
+    "test": "tape test/*.spec.js"
+  },
   "dependencies": {
     "browser-sync": "^2.9.11",
     "del": "^2.0.2",
@@ -24,5 +27,9 @@
     "postcss-import": "^7.0.0",
     "require-dir": "^0.3.0",
     "webpack": "^1.12.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "tape": "^4.2.1"
   }
 }

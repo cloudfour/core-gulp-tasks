@@ -1,0 +1,7 @@
+:root {
+  --result: "pass";
+}
+
+test {
+  result: var(--result);
+}

@@ -21,4 +21,16 @@ tasks.html(gulp, {
     }
   },
   src: './fixtures/input.hbs'
-})
+});
+
+tasks.js(gulp, {
+  plugins: {
+    webpack: {
+      entry: './fixtures/input.js',
+      output: {
+        path: './dist',
+        filename: 'main.js'
+      }
+    }
+  }
+});

@@ -9,6 +9,6 @@ tape('css task', function (test) {
   test.plan(1);
   exec('gulp css', { cwd: __dirname }, function () {
     var actual = utils.getResult('input.css');
-    test.equal(expected, actual);
+    test.equal(expected, actual, 'Processes CSS files');
   });
 });

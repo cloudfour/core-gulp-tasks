@@ -1,18 +1,33 @@
 'use strict';
 
 var fs = require('fs');
-var path = require('path');
+var mkdirp = require('mkdirp');
+var Path = require('path');
+
+function path () {
+  var segments = [].slice.call(arguments);
+  segments.unshift('./test');
+  return Path.join.apply(Path, segments);
+}
+
+function readFile (filepath) {
+  return fs.readFileSync(filepath, 'utf8');
+}
 
 module.exports = {
-  getFile: function (filepath) {
-    return fs.readFileSync(filepath, 'utf8');
+  makeDir: function (filepath) {
+    return mkdirp.sync(path(filepath));
   },
 
-  getFixture: function (filename) {
-    return this.getFile(path.join('test/fixtures', filename));
+  readDir: function (filepath) {
+    return fs.readdirSync(path(filepath));
   },
 
-  getResult: function (filename) {
-    return this.getFile(path.join('test/dist', filename));
+  readFixture: function (filename) {
+    return readFile(path('fixtures', filename));
+  },
+
+  readResult: function (filename) {
+    return readFile(path('dist', filename));
   }
 };

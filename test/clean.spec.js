@@ -1,15 +1,14 @@
 'use strict';
 
 var exec = require('child_process').exec;
-var fs = require('fs');
-var mkdirp = require('mkdirp');
 var tape = require('tape');
+var utils = require('./utils');
 
 tape('clean task', function (test) {
   test.plan(1);
-  mkdirp.sync('./test/dist/temp');
+  utils.makeDir('dist/temp');
   exec('gulp clean', { cwd: __dirname }, function () {
-    var files = fs.readdirSync('./test/dist');
+    var files = utils.readDir('dist');
     var isClean = files.every(function (filename) {
       return filename !== 'temp';
     });

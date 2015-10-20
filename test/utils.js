@@ -11,7 +11,7 @@ function path () {
 }
 
 function readFile (filepath) {
-  return fs.readFileSync(filepath, 'utf8');
+  return fs.readFileSync(filepath, 'utf8').trim();
 }
 
 module.exports = {

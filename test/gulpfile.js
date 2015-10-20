@@ -11,3 +11,14 @@ tasks.css(gulp, {
   src: './fixtures/input.css',
   dest: './dist'
 });
+
+tasks.html(gulp, {
+  dest: './dist',
+  layoutDir: './fixtures',
+  plugins: {
+    handlebars: {
+      batch: ['./fixtures'],
+    }
+  },
+  src: './fixtures/input.hbs'
+})

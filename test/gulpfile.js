@@ -3,6 +3,11 @@
 var gulp = require('gulp');
 var tasks = require('../');
 
+tasks.assets(gulp, {
+  src: './fixtures/assets/*',
+  dest: './dist'
+});
+
 tasks.clean(gulp, {
   dest: './dist/temp'
 });

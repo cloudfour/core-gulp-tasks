@@ -1,8 +1,15 @@
 {
   "name": "core-gulp-tasks",
   "version": "1.0.0",
-  "description": "Gulp tasks that we usually need.",
+  "description": "Core reusable gulp tasks for Cloud Four projects",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cloudfour/core-gulp-tasks.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "private": true,
   "files": [
     "index.js",

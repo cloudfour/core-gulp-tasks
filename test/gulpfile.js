@@ -14,7 +14,8 @@ tasks.clean(gulp, {
 
 tasks.css(gulp, {
   src: './fixtures/input.css',
-  dest: './dist'
+  dest: './dist',
+  prefix: 'prefix-'
 });
 
 tasks.html(gulp, {

@@ -1,3 +1,15 @@
 test {
   result: "pass";
 }
+
+.test {
+  result: "not prefixed";
+}
+
+.prefix-u-test {
+  result: "prefixed";
+}
+
+.prefix-Test {
+  result: "prefixed";
+}

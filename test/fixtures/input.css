@@ -5,3 +5,15 @@
 test {
   result: var(--result);
 }
+
+.test {
+  result: "not prefixed";
+}
+
+.u-test {
+  result: "prefixed";
+}
+
+.Test {
+  result: "prefixed";
+}

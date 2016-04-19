@@ -1,4 +1,5 @@
 @use postcss-mixins;
+@use postcss-cssnext;
 @use postcss-discard-comments(removeAll: true);
 @use postcss-discard-empty;
 

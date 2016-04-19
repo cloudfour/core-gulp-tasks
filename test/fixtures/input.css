@@ -1,4 +1,9 @@
+@use postcss-mixins;
+@use postcss-discard-comments(removeAll: true);
+@use postcss-discard-empty;
+
 :root {
+  /* This comment should be removed */
   --result: "pass";
 }
 
@@ -16,4 +21,17 @@ test {
 
 .Test {
   result: "prefixed";
+}
+
+should-not-appear {}
+
+@define-mixin foo {
+  foo {
+    bar: baz;
+    @mixin-content;
+  }
+}
+
+@mixin foo {
+  bang: biz;
 }

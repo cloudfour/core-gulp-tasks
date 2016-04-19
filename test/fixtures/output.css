@@ -1,15 +1,20 @@
-test {
-  result: "pass";
+test{
+  result:"pass";
 }
 
-.test {
-  result: "not prefixed";
+.test{
+  result:"not prefixed";
 }
 
-.prefix-u-test {
-  result: "prefixed";
+.prefix-u-test{
+  result:"prefixed";
 }
 
-.prefix-Test {
-  result: "prefixed";
+.prefix-Test{
+  result:"prefixed";
+}
+
+foo{
+  bar:baz;
+  bang:biz;
 }

@@ -6,6 +6,14 @@ test{
   result:"not prefixed";
 }
 
+.is-test{
+  result:"not prefixed";
+}
+
+.has-test{
+  result:"not prefixed";
+}
+
 .prefix-u-test{
   result:"prefixed";
 }

@@ -1,4 +1,5 @@
 @use postcss-mixins;
+@use postcss-cssnext;
 @use postcss-discard-comments(removeAll: true);
 @use postcss-discard-empty;
 
@@ -12,6 +13,14 @@ test {
 }
 
 .test {
+  result: "not prefixed";
+}
+
+.is-test {
+  result: "not prefixed";
+}
+
+.has-test {
   result: "not prefixed";
 }
 

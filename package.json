@@ -26,7 +26,6 @@
     "gulp-cssnano": "^2.0.0",
     "gulp-data": "^1.2.0",
     "gulp-if": "^2.0.0",
-    "gulp-imagemin": "^2.3.0",
     "gulp-postcss": "^6.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-util": "^3.0.6",

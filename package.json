@@ -1,23 +1,25 @@
 {
-  "name": "core-gulp-tasks",
+  "name": "@cloudfour/gulp-tasks",
   "version": "2.0.0",
-  "description": "Core reusable gulp tasks for Cloud Four projects",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:cloudfour/core-gulp-tasks.git"
-  },
+  "description": "Gulp tasks used for various Cloud Four projects.",
+  "author": "Cloud Four (http://cloudfour.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/cloudfour/core-gulp-tasks",
+  "repository": "cloudfour/core-gulp-tasks",
+  "bugs": "https://github.com/cloudfour/core-gulp-tasks/issues",
+  "keywords": [
+    "gulp",
+    "build",
+    "tasks"
+  ],
   "engines": {
     "node": ">=4.0.0"
   },
-  "private": true,
+  "main": "index.js",
   "files": [
     "index.js",
     "lib"
   ],
-  "scripts": {
-    "test": "tape test/*.spec.js | tap-spec"
-  },
   "dependencies": {
     "browser-sync": "^2.9.11",
     "del": "^2.0.2",
@@ -46,5 +48,10 @@
     "postcss-mixins": "^4.0.1",
     "tap-spec": "^4.1.0",
     "tape": "^4.2.1"
+  },
+  "scripts": {
+    "test": "tape test/*.spec.js | tap-spec",
+    "prepublish": "npm test",
+    "preversion": "npm test"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@cloudfour/gulp-tasks",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Gulp tasks used for various Cloud Four projects.",
   "author": "Cloud Four (http://cloudfour.com)",
   "license": "MIT",

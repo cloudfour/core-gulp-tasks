@@ -36,11 +36,9 @@
     "lodash": "^3.10.1",
     "postcss-class-prefix": "^0.3.0",
     "postcss-import": "^7.0.0",
-    "postcss-reporter": "^2.0.0",
     "postcss-use": "^2.0.2",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.2.2",
-    "stylelint": "^7.6.0",
     "webpack": "^1.12.2"
   },
   "devDependencies": {

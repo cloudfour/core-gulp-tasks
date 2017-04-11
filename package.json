@@ -39,7 +39,8 @@
     "postcss-use": "^2.0.2",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.2.2",
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.2",
+    "snyk": "^1.28.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
@@ -54,7 +55,9 @@
   },
   "scripts": {
     "test": "tape test/*.spec.js | tap-spec",
-    "prepublish": "npm test",
-    "preversion": "npm test"
-  }
+    "prepublish": "npm run snyk-protect && npm test",
+    "preversion": "npm test",
+    "snyk-protect": "snyk protect"
+  },
+  "snyk": true
 }

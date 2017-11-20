@@ -44,3 +44,7 @@ should-not-appear {}
 @mixin foo {
   bang: biz;
 }
+
+.foft {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}

@@ -15,7 +15,13 @@ tasks.copy(gulp, {
 tasks.css(gulp, {
   src: './fixtures/input.css',
   dest: './dist',
-  prefix: 'prefix-'
+  prefix: 'prefix-',
+  foftGroups: [
+    {
+      families: ["Roboto"],
+      classNames: ["wf-loaded"]
+    }
+  ]
 });
 
 tasks.html(gulp, {

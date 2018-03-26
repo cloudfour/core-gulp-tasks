@@ -36,6 +36,7 @@
     "gulp-util": "^3.0.6",
     "gulp-watch": "^4.3.11",
     "lodash": "^3.10.1",
+    "postcss": "^5.2.18",
     "postcss-class-prefix": "^0.3.0",
     "postcss-foft-classes": "^1.0.2",
     "postcss-import": "^11.0.0",
@@ -49,7 +50,6 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "mkdirp": "^0.5.1",
-    "postcss-class-prefix": "^0.3.0",
     "postcss-cssnext": "^2.1.0",
     "postcss-discard-comments": "^2.0.4",
     "postcss-discard-empty": "^2.0.1",

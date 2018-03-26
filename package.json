@@ -22,8 +22,10 @@
   ],
   "dependencies": {
     "browser-sync": "^2.9.11",
+    "common-prefix": "^1.1.0",
     "del": "^2.0.2",
     "front-matter": "^1.0.0",
+    "glob": "^7.1.2",
     "gulp-compile-handlebars": "^0.5.0",
     "gulp-cssnano": "^2.1.2",
     "gulp-data": "^1.2.0",
@@ -34,6 +36,7 @@
     "gulp-util": "^3.0.6",
     "gulp-watch": "^4.3.11",
     "lodash": "^3.10.1",
+    "postcss": "^5.2.18",
     "postcss-class-prefix": "^0.3.0",
     "postcss-foft-classes": "^1.0.2",
     "postcss-import": "^11.0.0",
@@ -41,13 +44,13 @@
     "require-dir": "^0.3.2",
     "run-sequence": "^1.2.2",
     "snyk": "^1.30.1",
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.2",
+    "webpack-merge": "^4.1.2"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
     "mkdirp": "^0.5.1",
     "postcss-cssnext": "^2.1.0",
-    "postcss-class-prefix": "^0.3.0",
     "postcss-discard-comments": "^2.0.4",
     "postcss-discard-empty": "^2.0.1",
     "postcss-mixins": "^4.0.1",

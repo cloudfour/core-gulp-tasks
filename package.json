@@ -23,7 +23,7 @@
   "dependencies": {
     "browser-sync": "^2.24.4",
     "del": "^3.0.0",
-    "front-matter": "^1.0.0",
+    "front-matter": "^2.3.0",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-cssnano": "^2.1.3",
     "gulp-data": "^1.3.1",
@@ -33,14 +33,14 @@
     "gulp-rename": "^1.3.0",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^5.0.0",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.10",
     "postcss-class-prefix": "^0.3.0",
     "postcss-foft-classes": "^1.0.4",
     "postcss-import": "^11.1.0",
     "postcss-use": "^3.0.0",
     "require-dir": "^1.0.0",
-    "run-sequence": "^1.2.2",
-    "snyk": "^1.30.1",
+    "run-sequence": "^2.2.1",
+    "snyk": "^1.83.0",
     "webpack": "^1.12.2"
   },
   "devDependencies": {

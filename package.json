@@ -35,12 +35,8 @@
     "gulp-watch": "^5.0.0",
     "lodash": "^3.10.1",
     "postcss-class-prefix": "^0.3.0",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-discard-comments": "^2.0.4",
-    "postcss-discard-empty": "^2.1.0",
     "postcss-foft-classes": "^1.0.4",
     "postcss-import": "^11.1.0",
-    "postcss-mixins": "^6.2.0",
     "postcss-use": "^3.0.0",
     "require-dir": "^0.3.2",
     "run-sequence": "^1.2.2",
@@ -50,6 +46,7 @@
   "devDependencies": {
     "gulp": "^4.0.0",
     "mkdirp": "^0.5.1",
+    "postcss-discard-comments": "^2.0.4",
     "tap-spec": "^5.0.0",
     "tape": "^4.9.1"
   },

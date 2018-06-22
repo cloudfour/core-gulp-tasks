@@ -1,28 +1,31 @@
 test{
   result:"pass";
 }
+
 .test{
   result:"not prefixed";
 }
+
 .is-test{
   result:"not prefixed";
 }
+
 .has-test{
   result:"not prefixed";
 }
+
 .prefix-u-test{
   result:"prefixed";
 }
+
 .prefix-Test{
   result:"prefixed";
 }
-foo{
-    bar:baz;
-  bang:biz;
-  }
+
 .foft{
   font-family:Helvetica, Arial, sans-serif;
 }
+
 .wf-loaded .foft{
   font-family:Roboto;
 }

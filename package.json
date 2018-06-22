@@ -50,8 +50,8 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "mkdirp": "^0.5.1",
-    "tap-spec": "^4.1.0",
-    "tape": "^4.2.1"
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
   },
   "scripts": {
     "test": "tape test/*.spec.js | tap-spec",

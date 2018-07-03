@@ -48,8 +48,15 @@
     "webpack": "^1.12.2"
   },
   "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-unicorn": "^4.0.3",
     "gulp": "^3.9.0",
     "mkdirp": "^0.5.1",
+    "prettier": "^1.13.7",
     "tap-spec": "^4.1.0",
     "tape": "^4.2.1"
   },
@@ -58,7 +65,18 @@
     "prepublish": "npm run snyk-protect && npm test",
     "preversion": "npm test",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "check-lint": "prettier --list-different '**/*.js' && eslint '**/*.js'",
+    "lint": "prettier --write '**/*.js'; eslint --fix '**/*.js'"
   },
-  "snyk": true
+  "snyk": true,
+  "eslintConfig": {
+    "extends": "@cloudfour/eslint-config"
+  },
+  "eslintIgnore": [
+    "test/dist"
+  ],
+  "prettier": {
+    "singleQuote": true
+  }
 }

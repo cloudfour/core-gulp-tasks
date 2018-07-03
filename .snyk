@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.0
+version: v1.12.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -48,3 +48,6 @@ patch:
         patched: '2017-05-23T06:09:16.527Z'
     - browser-sync > serve-static > send > debug > ms:
         patched: '2017-05-23T06:09:16.527Z'
+  'npm:lodash:20180130':
+    - browser-sync > easy-extender > lodash:
+        patched: '2018-07-03T00:54:51.136Z'

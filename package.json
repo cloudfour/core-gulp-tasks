@@ -62,7 +62,7 @@
   },
   "scripts": {
     "test": "tape test/*.spec.js | tap-spec",
-    "prepublish": "npm run snyk-protect && npm test",
+    "prepublishOnly": "npm run snyk-protect && npm test",
     "preversion": "npm test",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect",

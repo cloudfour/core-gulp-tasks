@@ -1,7 +1,7 @@
 'use strict';
 
 var gulp = require('gulp');
-var tasks = require('../');
+var tasks = require('..');
 
 tasks.clean(gulp, {
   dest: './dist/temp'
@@ -18,8 +18,8 @@ tasks.css(gulp, {
   prefix: 'prefix-',
   foftGroups: [
     {
-      families: ["Roboto"],
-      classNames: ["wf-loaded"]
+      families: ['Roboto'],
+      classNames: ['wf-loaded']
     }
   ]
 });
@@ -29,7 +29,7 @@ tasks.html(gulp, {
   layoutDir: './fixtures',
   plugins: {
     handlebars: {
-      batch: ['./fixtures'],
+      batch: ['./fixtures']
     }
   },
   src: './fixtures/input.hbs'

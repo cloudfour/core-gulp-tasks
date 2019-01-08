@@ -44,7 +44,7 @@
     "postcss-use": "^2.3.0",
     "require-dir": "^0.3.2",
     "run-sequence": "^1.2.2",
-    "snyk": "^1.88.0",
+    "snyk": "^1.88.1",
     "webpack": "^1.12.2"
   },
   "devDependencies": {

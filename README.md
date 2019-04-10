@@ -1,11 +1,13 @@
 # Core Gulp Tasks
 
+[![NPM version](https://img.shields.io/npm/v/@cloudfour/gulp-tasks.svg)](https://www.npmjs.com/package/@cloudfour/gulp-tasks)
+
 **Note:** Requires `node >=4.0.0`
 
 ## Usage
 
 ```
-npm install --save-dev cloudfour/core-gulp-tasks.git
+npm install --save-dev @cloudfour/gulp-tasks
 ```
 
 ```js

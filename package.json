@@ -32,10 +32,10 @@
     "gulp-postcss": "^7.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-util": "^3.0.6",
-    "gulp-watch": "^4.3.11",
-    "lodash": "^4.17.5",
+    "gulp-watch": "^5.0.0",
+    "lodash": "^4.17.11",
     "postcss-class-prefix": "^0.3.0",
-    "postcss-cssnext": "^2.1.0",
+    "postcss-cssnext": "^2.11.0",
     "postcss-discard-comments": "^2.0.4",
     "postcss-discard-empty": "^2.0.1",
     "postcss-foft-classes": "^1.0.2",
@@ -44,8 +44,8 @@
     "postcss-use": "^2.3.0",
     "require-dir": "^0.3.2",
     "run-sequence": "^1.2.2",
-    "snyk": "^1.88.0",
-    "webpack": "^1.12.2"
+    "snyk": "^1.88.1",
+    "webpack": "^2.2.0"
   },
   "devDependencies": {
     "@cloudfour/eslint-config": "^1.0.0",

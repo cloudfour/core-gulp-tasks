@@ -1,13 +1,13 @@
 'use strict';
 
-var fs = require('fs');
-var mkdirp = require('mkdirp');
-var Path = require('path');
+const fs = require('fs');
+const mkdirp = require('mkdirp');
+const Path = require('path');
 
-function path() {
-  var segments = [].slice.call(arguments);
+function path(...args) {
+  const segments = [].slice.call(args);
   segments.unshift('./test');
-  return Path.join.apply(Path, segments);
+  return Path.join(...segments);
 }
 
 function readFile(filepath) {
@@ -15,19 +15,19 @@ function readFile(filepath) {
 }
 
 module.exports = {
-  makeDir: function(filepath) {
+  makeDir(filepath) {
     return mkdirp.sync(path(filepath));
   },
 
-  readDir: function(filepath) {
+  readDir(filepath) {
     return fs.readdirSync(path(filepath));
   },
 
-  readFixture: function(filename) {
+  readFixture(filename) {
     return readFile(path('fixtures', filename));
   },
 
-  readResult: function(filename) {
+  readResult(filename) {
     return readFile(path('dist', filename));
   }
 };

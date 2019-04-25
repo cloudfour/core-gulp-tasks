@@ -13,7 +13,7 @@
     "tasks"
   ],
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=8.0.0"
   },
   "main": "index.js",
   "files": [
@@ -67,7 +67,7 @@
   },
   "snyk": true,
   "eslintConfig": {
-    "extends": "@cloudfour/eslint-config"
+    "extends": "plugin:@cloudfour/recommended"
   },
   "eslintIgnore": [
     "test/dist"

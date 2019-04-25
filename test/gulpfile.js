@@ -1,7 +1,7 @@
 'use strict';
 
-var gulp = require('gulp');
-var tasks = require('..');
+const gulp = require('gulp');
+const tasks = require('..');
 
 tasks.clean(gulp, {
   dest: './dist/temp'

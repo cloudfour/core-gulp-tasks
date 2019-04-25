@@ -54,7 +54,7 @@
     "eslint-plugin-node": "6.0.1",
     "eslint-plugin-promise": "3.8.0",
     "eslint-plugin-standard": "3.1.0",
-    "eslint-plugin-unicorn": "4.0.3",
+    "eslint-plugin-unicorn": "8.0.2",
     "gulp": "3.9.1",
     "mkdirp": "0.5.1",
     "prettier": "1.17.0",

@@ -42,7 +42,7 @@
     "postcss-import": "^11.0.0",
     "postcss-mixins": "^4.0.1",
     "postcss-use": "^2.3.0",
-    "require-dir": "^0.3.2",
+    "require-dir": "^1.0.0",
     "run-sequence": "^1.2.2",
     "snyk": "^1.88.1",
     "webpack": "^2.2.0"

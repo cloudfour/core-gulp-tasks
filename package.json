@@ -40,7 +40,7 @@
     "postcss-discard-empty": "^2.0.1",
     "postcss-foft-classes": "^1.0.2",
     "postcss-import": "^11.0.0",
-    "postcss-mixins": "^4.0.1",
+    "postcss-mixins": "^6.0.0",
     "postcss-use": "^2.3.0",
     "require-dir": "^1.0.0",
     "run-sequence": "^1.2.2",

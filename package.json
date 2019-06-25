@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@cloudfour/eslint-plugin": "2.0.1",
-    "eslint": "5.16.0",
+    "eslint": "6.0.1",
     "gulp": "3.9.1",
     "mkdirp": "0.5.1",
     "prettier": "1.17.1",

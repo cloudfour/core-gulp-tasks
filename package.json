@@ -41,7 +41,7 @@
     "postcss-foft-classes": "^1.0.2",
     "postcss-import": "^11.0.0",
     "postcss-mixins": "^4.0.1",
-    "postcss-use": "^2.3.0",
+    "postcss-use": "^3.0.0",
     "require-dir": "^1.0.0",
     "run-sequence": "^1.2.2",
     "snyk": "^1.88.1",

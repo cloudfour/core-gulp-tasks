@@ -39,7 +39,7 @@
     "postcss-discard-comments": "^2.0.4",
     "postcss-discard-empty": "^2.0.1",
     "postcss-foft-classes": "^1.0.2",
-    "postcss-import": "^11.0.0",
+    "postcss-import": "^12.0.0",
     "postcss-mixins": "^4.0.1",
     "postcss-use": "^2.3.0",
     "require-dir": "^1.0.0",
